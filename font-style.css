@@ -1,18 +1,21 @@
 @font-face {
-  font-family: 'holberton_school-icon';
-  src:  url('fonts/holberton_school-icon.eot?sq4eq4');
-  src:  url('fonts/holberton_school-icon.eot?sq4eq4#iefix') format('embedded-opentype'),
-    url('fonts/holberton_school-icon.ttf?sq4eq4') format('truetype'),
-    url('fonts/holberton_school-icon.woff?sq4eq4') format('woff'),
-    url('fonts/holberton_school-icon.svg?sq4eq4#holberton_school-icon') format('svg');
+  font-family: "holberton_school-icon";
+  src: url("fonts/holberton_school-icon.eot?sq4eq4");
+  src: url("fonts/holberton_school-icon.eot?sq4eq4#iefix")
+      format("embedded-opentype"),
+    url("fonts/holberton_school-icon.ttf?sq4eq4") format("truetype"),
+    url("fonts/holberton_school-icon.woff?sq4eq4") format("woff"),
+    url("fonts/holberton_school-icon.svg?sq4eq4#holberton_school-icon")
+      format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="holberton_school-icon-"], [class*=" holberton_school-icon-"] {
+[class^="holberton_school-icon-"],
+[class*=" holberton_school-icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'holberton_school-icon' !important;
+  font-family: "holberton_school-icon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
