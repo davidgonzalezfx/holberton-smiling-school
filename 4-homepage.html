@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holberton Smiling School</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main class="main text-white">
+        <section class="hero px-5 py-3 d-flex flex-column justify-content-between">
+            <header class="header d-flex justify-content-between align-items-end">
+                <img class="header__logo" src="./assets/logo.svg" alt="Logo">
+                <ul class="header__nav d-flex justify-content-end list-unstyled font-weight-bolder">
+                    <li class="header__nav--item mx-4"><a class="text-white text-decoration-none" href="#">COURSES</a>
+                    </li>
+                    <li class="header__nav--item mx-4"><a class="text-white text-decoration-none" href="#">PRICING</a>
+                    </li>
+                    <li class="header__nav--item ml-4"><a class="text-white text-decoration-none" href="#">LOGIN</a>
+                    </li>
+                </ul>
+            </header>
+            <div class="info d-flex flex-column justify-content-center align-items-lg-center">
+                <h1 class="text-white font-weight-bolder">Get schooled</h1>
+                <ul class="list-unstyled font-weight-bolder d-flex text-center justify-content-center">
+                    <li class="mx-2">SMILES</li>
+                    <li class="mx-2">GRIN</li>
+                    <li class="mx-2">LAUGH</li>
+                </ul>
+                <button class="btn btn-primary p-3 shadow-lg mt-3 bg-primary">REGISTER FOR FREE</button>
+            </div>
+            <div class="team d-flex flex-column justify-content-center align-items-lg-center">
+                <h2 class="mb-5 font-weight-lighter"><span class="text-primary">Learn</span> form the pros.</h2>
+                <div class="team__list d-flex justify-content-around align-items-lg-center">
+
+                    <div class="team__list--member text-center">
+                        <img src="./assets/images/profile_1.jpg" alt="Team member" class="team__list--img">
+                        <h4 class="font-weight-bolder mt-1 mb-0">Phillip Massey</h4>
+                        <p class="mb-0">« Smile of the year »</p>
+                        <p class="mt-0">2018 - 2019</p>
+                    </div>
+                    <div class="team__list--member text-center">
+                        <img src="./assets/images/profile_2.jpg" alt="Team member" class="team__list--img">
+                        <h4 class="font-weight-bolder mt-1 mb-0">Nannie Lawrence</h4>
+                        <p class="mb-0">Best « little smile »</p>
+                        <p class="mb-0">2017</p>
+                    </div>
+                    <div class="team__list--member text-center">
+                        <img src="./assets/images/profile_3.jpg" alt="Team member" class="team__list--img">
+                        <h4 class="font-weight-bolder mt-1 mb-0">Bruce Walters</h4>
+                        <p class="mb-0">Best « Friend Smile »</p>
+                        <p class="mb-0">live performance 2019</p>
+                    </div>
+                    <div class="team__list--member text-center">
+                        <img src="./assets/images/profile_4.jpg" alt="Team member" class="team__list--img">
+                        <h4 class="font-weight-bolder mt-1 mb-0">Phillip Massey</h4>
+                        <p class="mb-0">« 24h smiles » winner</p>
+                        <p class="mb-0">2016 - 2019</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="carouselOne d-flex flex-column justify-content-center bg-primary">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner px-5">
+                    <div class="carousel-item active">
+                        <div class="carousel-item-info d-flex">
+                            <img class="d-block carousel__img mr-3" src="./assets/images/profile_5.jpg"
+                                alt="First slide">
+                            <div class="info pb-5">
+                                <p type="quotetype" class="mt-4">« Those tutorials are concise and go straight to the
+                                    point. I can’t think of a better
+                                    place to learn
+                                    smiling. And it’s
+                                    so fun!</p>
+                                <p class="font-weight-bolder mb-0">Person Name</p>
+                                <p class="font-weight-light">weather presenter</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-item-info d-flex">
+                            <img class="d-block carousel__img mr-3" src="./assets/images/profile_5.jpg"
+                                alt="First slide">
+                            <div class="info pb-5">
+                                <p class="mt-4">« Those tutorials are concise and go straight to the point. I can’t
+                                    think of a better
+                                    place to learn
+                                    smiling. And it’s
+                                    so fun!</p>
+                                <p class="font-weight-bolder mb-0">Person Name</p>
+                                <p class="font-weight-light">weather presenter</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+        <section class="carouselTwo popular-videos bg-white text-center d-flex flex-column justify-content-start pt-5">
+            <h2 class="text-dark mb-5">Most <span class="text-primary">popular</span> tutorials</h2>
+            <div id="carousel2ExampleControls" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active text-dark d-flex justify-content-lg-between">
+                        <div class="video-item video-item1 d-flex flex-column">
+                            <div class="videoThumbmail1 d-flex justify-content-center align-items-center">
+                                <img class="w-25" src="./assets/images/play.png" alt="Play">
+                            </div>
+                            <div class="videoInfo text-left">
+                                <h3 class="font-weight-bolder form-control-sm align-self-start mb-0">Diagonal Smile</h3>
+                                <p class="ml-2 text-white-70 mt-0">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.</p>
+                                <div class="videoUserInfo d-flex mb-2 justify-content-start align-items-center">
+                                    <img class="videoUserInfoPhoto" src="./assets/images/profile_1.jpg" alt="Photo">
+                                    <h4 class="videoUserInfoName mt-2 ml-3 text-primary font-weight-bold">Phillip Massey
+                                    </h4>
+                                </div>
+                                <div class="videoCalification d-flex justify-content-between align-items-center">
+                                    <div class="stars d-flex">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_off.png" alt="star">
+                                    </div>
+                                    <p class="mt-3 text-primary font-weight-bold">8min</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-item video-item2 d-flex flex-column">
+                            <div class="videoThumbmail2 d-flex justify-content-center align-items-center">
+                                <img class="w-25" src="./assets/images/play.png" alt="Play">
+                            </div>
+                            <div class="videoInfo text-left">
+                                <h3 class="font-weight-bolder form-control-sm align-self-start mb-0">Diagonal Smile</h3>
+                                <p class="ml-2 text-white-70 mt-0">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.</p>
+                                <div class="videoUserInfo d-flex mb-2 justify-content-start align-items-center">
+                                    <img class="videoUserInfoPhoto" src="./assets/images/profile_1.jpg" alt="Photo">
+                                    <h4 class="videoUserInfoName mt-2 ml-3 text-primary font-weight-bold">Phillip Massey
+                                    </h4>
+                                </div>
+                                <div class="videoCalification d-flex justify-content-between align-items-center">
+                                    <div class="stars d-flex">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_off.png" alt="star">
+                                    </div>
+                                    <p class="mt-3 text-primary font-weight-bold">8min</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-item video-item3 d-flex flex-column">
+                            <div class="videoThumbmail3 d-flex justify-content-center align-items-center">
+                                <img class="w-25" src="./assets/images/play.png" alt="Play">
+                            </div>
+                            <div class="videoInfo text-left">
+                                <h3 class="font-weight-bolder form-control-sm align-self-start mb-0">Diagonal Smile</h3>
+                                <p class="ml-2 text-white-70 mt-0">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.</p>
+                                <div class="videoUserInfo d-flex mb-2 justify-content-start align-items-center">
+                                    <img class="videoUserInfoPhoto" src="./assets/images/profile_1.jpg" alt="Photo">
+                                    <h4 class="videoUserInfoName mt-2 ml-3 text-primary font-weight-bold">Phillip Massey
+                                    </h4>
+                                </div>
+                                <div class="videoCalification d-flex justify-content-between align-items-center">
+                                    <div class="stars d-flex">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_off.png" alt="star">
+                                    </div>
+                                    <p class="mt-3 text-primary font-weight-bold">8min</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-item video-item4 d-flex flex-column">
+                            <div class="videoThumbmail4 d-flex justify-content-center align-items-center">
+                                <img class="w-25" src="./assets/images/play.png" alt="Play">
+                            </div>
+                            <div class="videoInfo text-left">
+                                <h3 class="font-weight-bolder form-control-sm align-self-start mb-0">Diagonal Smile</h3>
+                                <p class="ml-2 text-white-70 mt-0">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.</p>
+                                <div class="videoUserInfo d-flex mb-2 justify-content-start align-items-center">
+                                    <img class="videoUserInfoPhoto" src="./assets/images/profile_1.jpg" alt="Photo">
+                                    <h4 class="videoUserInfoName mt-2 ml-3 text-primary font-weight-bold">Phillip Massey
+                                    </h4>
+                                </div>
+                                <div class="videoCalification d-flex justify-content-between align-items-center">
+                                    <div class="stars d-flex">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_off.png" alt="star">
+                                    </div>
+                                    <p class="mt-3 text-primary font-weight-bold">8min</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel2ExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next text-dark" href="#carousel2ExampleControls" role="button"
+                    data-slide="next">
+                    <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                    <span class="sr-only text-dark">Next</span>
+                </a>
+            </div>
+        </section>
+        <section class="freememeber bg-black text-center">
+            <h3 class=""><span class="text-primary">Free</span> membership</h3>
+            <div class="free-items d-flex justify-content-between flex-wrap pt-1 px-5">
+                <div class="free-item text-center mt-5">
+                    <img src="./assets/images/smile_on.png" alt="logo">
+                    <h4 class="font-weight-bolder mt-3 mb-3">Lorem ipsum</h4>
+                    <p class="font-weight-bolder">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="free-item text-center mt-5">
+                    <img src="./assets/images/smile_on.png" alt="logo">
+                    <h4 class="font-weight-bolder mt-3 mb-3">Lorem ipsum</h4>
+                    <p class="font-weight-bolder">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="free-item text-center mt-5">
+                    <img src="./assets/images/smile_on.png" alt="logo">
+                    <h4 class="font-weight-bolder mt-3 mb-3">Lorem ipsum</h4>
+                    <p class="font-weight-bolder">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="free-item text-center mt-5">
+                    <img src="./assets/images/smile_on.png" alt="logo">
+                    <h4 class="font-weight-bolder mt-3 mb-3">Lorem ipsum</h4>
+                    <p class="font-weight-bolder">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <button class="btn btn-primary p-2 shadow-lg mt-3 bg-primary mb-5">REGISTER FOR FREE</button>
+        </section>
+        <section class="carouselTwo popular-videos bg-white text-center d-flex flex-column justify-content-start pt-5">
+            <h2 class="text-dark mb-5"><span class="text-primary">Latest</span> videos</h2>
+            <div id="carousel2ExampleControls" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active text-dark d-flex justify-content-lg-between">
+                        <div class="video-item video-item1 d-flex flex-column">
+                            <div class="videoThumbmail1 d-flex justify-content-center align-items-center">
+                                <img class="w-25" src="./assets/images/play.png" alt="Play">
+                            </div>
+                            <div class="videoInfo text-left">
+                                <h3 class="font-weight-bolder form-control-sm align-self-start mb-0">Diagonal Smile</h3>
+                                <p class="ml-2 text-white-70 mt-0">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.</p>
+                                <div class="videoUserInfo d-flex mb-2 justify-content-start align-items-center">
+                                    <img class="videoUserInfoPhoto" src="./assets/images/profile_1.jpg" alt="Photo">
+                                    <h4 class="videoUserInfoName mt-2 ml-3 text-primary font-weight-bold">Phillip Massey
+                                    </h4>
+                                </div>
+                                <div class="videoCalification d-flex justify-content-between align-items-center">
+                                    <div class="stars d-flex">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_off.png" alt="star">
+                                    </div>
+                                    <p class="mt-3 text-primary font-weight-bold">8min</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-item video-item2 d-flex flex-column">
+                            <div class="videoThumbmail2 d-flex justify-content-center align-items-center">
+                                <img class="w-25" src="./assets/images/play.png" alt="Play">
+                            </div>
+                            <div class="videoInfo text-left">
+                                <h3 class="font-weight-bolder form-control-sm align-self-start mb-0">Diagonal Smile</h3>
+                                <p class="ml-2 text-white-70 mt-0">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.</p>
+                                <div class="videoUserInfo d-flex mb-2 justify-content-start align-items-center">
+                                    <img class="videoUserInfoPhoto" src="./assets/images/profile_1.jpg" alt="Photo">
+                                    <h4 class="videoUserInfoName mt-2 ml-3 text-primary font-weight-bold">Phillip Massey
+                                    </h4>
+                                </div>
+                                <div class="videoCalification d-flex justify-content-between align-items-center">
+                                    <div class="stars d-flex">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_off.png" alt="star">
+                                    </div>
+                                    <p class="mt-3 text-primary font-weight-bold">8min</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-item video-item3 d-flex flex-column">
+                            <div class="videoThumbmail3 d-flex justify-content-center align-items-center">
+                                <img class="w-25" src="./assets/images/play.png" alt="Play">
+                            </div>
+                            <div class="videoInfo text-left">
+                                <h3 class="font-weight-bolder form-control-sm align-self-start mb-0">Diagonal Smile</h3>
+                                <p class="ml-2 text-white-70 mt-0">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.</p>
+                                <div class="videoUserInfo d-flex mb-2 justify-content-start align-items-center">
+                                    <img class="videoUserInfoPhoto" src="./assets/images/profile_1.jpg" alt="Photo">
+                                    <h4 class="videoUserInfoName mt-2 ml-3 text-primary font-weight-bold">Phillip Massey
+                                    </h4>
+                                </div>
+                                <div class="videoCalification d-flex justify-content-between align-items-center">
+                                    <div class="stars d-flex">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_off.png" alt="star">
+                                    </div>
+                                    <p class="mt-3 text-primary font-weight-bold">8min</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-item video-item4 d-flex flex-column">
+                            <div class="videoThumbmail4 d-flex justify-content-center align-items-center">
+                                <img class="w-25" src="./assets/images/play.png" alt="Play">
+                            </div>
+                            <div class="videoInfo text-left">
+                                <h3 class="font-weight-bolder form-control-sm align-self-start mb-0">Diagonal Smile</h3>
+                                <p class="ml-2 text-white-70 mt-0">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.</p>
+                                <div class="videoUserInfo d-flex mb-2 justify-content-start align-items-center">
+                                    <img class="videoUserInfoPhoto" src="./assets/images/profile_1.jpg" alt="Photo">
+                                    <h4 class="videoUserInfoName mt-2 ml-3 text-primary font-weight-bold">Phillip Massey
+                                    </h4>
+                                </div>
+                                <div class="videoCalification d-flex justify-content-between align-items-center">
+                                    <div class="stars d-flex">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_on.png" alt="star">
+                                        <img class="star mr-1" src="./assets/images/star_off.png" alt="star">
+                                    </div>
+                                    <p class="mt-3 text-primary font-weight-bold">8min</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel2ExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next text-dark" href="#carousel2ExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                    <span class="sr-only text-dark">Next</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+</html>
